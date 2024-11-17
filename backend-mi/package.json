@@ -1,0 +1,23 @@
+{
+  "name": "backend-mi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "gunjan mishra",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "googleapis": "^144.0.0",
+    "query-string": "^9.1.1",
+    "request": "^2.88.2",
+    "url-parse": "^1.5.10"
+  }
+}
